@@ -1,8 +1,25 @@
 aid: andrenam
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/andrenam.png
 name: Andrenam
-description: 'Andrenam is a company surfaced as a portfolio company of homebrew and added to the API Evangelist
-  network as a stub for enrichment. Sector: aerospace-defense. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Andrenam is a defense technology company building an AI-powered maritime
+  sensing network for undersea surveillance. It develops mass-manufacturable, low-cost
+  buoy-based autonomous sonar systems that deploy from manned and unmanned vessels
+  to detect, track, and identify real-time maritime traffic using cloud and edge AI,
+  then dispatch resources to priority areas. Its product line spans deployment, AI-enhanced
+  detection, and integration with naval command-and-control systems, targeting government
+  and military maritime-domain-awareness customers. No public API, developer portal,
+  or documentation surface is currently published.'
 url: https://raw.githubusercontent.com/api-evangelist/andrenam/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,12 +33,37 @@ modified: '2026-07-17'
 tags:
 - Company
 - Aerospace Defense
-apis: []
+- Maritime
+- Sonar
+- Surveillance
+- Autonomous Systems
+- Artificial Intelligence
+- National Security
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+apis: []
 common:
 - type: Website
   url: https://www.andrenam.com
+- type: About
+  url: https://www.andrenam.com/about
+- type: Careers
+  url: https://www.andrenam.com/careers
+- type: Blog
+  url: https://www.andrenam.com/media
+- type: Support
+  url: https://www.andrenam.com/contact
+- type: LinkedIn
+  url: https://www.linkedin.com/company/andrenam/
+- type: Twitter
+  url: https://x.com/_andrenam_
+- type: DomainSecurity
+  url: security/andrenam-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
